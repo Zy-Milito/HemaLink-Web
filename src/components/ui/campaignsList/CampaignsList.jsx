@@ -1,12 +1,11 @@
-import { campaigns } from "../../../data/donations.js";
-import DonationCard from "./campaignCard/CampaignCard.jsx";
-import './campaignsList.css'
+import { campaigns } from "../../../data/campaigns.js";
+import CampaignCard from "./campaignCard/CampaignCard.jsx";
 
-const DonationsList = () => {
+const CampaignsList = () => {
   return (
     <div className="d-flex flex-wrap gap-4 p-4">
       {campaigns.map((campaign) => (
-        <DonationCard
+        <CampaignCard
           key={campaign.id}
           entityName={campaign.entityName}
           bloodType={campaign.bloodType}
@@ -20,4 +19,4 @@ const DonationsList = () => {
   );
 };
 
-export default DonationsList;
+export default CampaignsList;

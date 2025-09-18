@@ -3,7 +3,7 @@ import CIcon from "@coreui/icons-react";
 import { cilCalendar, cilLocationPin, cilDrop } from "@coreui/icons";
 import "./campaignCard.css";
 
-const DonationCard = ({
+const CampaignCard = ({
   id,
   entityName,
   bloodType,
@@ -50,7 +50,9 @@ const DonationCard = ({
       <Card.Body className="d-flex flex-column flex-grow-1">
         <Card.Header className="bg-transparent border-0 p-0 m-0 d-flex justify-content-between align-items-center">
           <Card.Title>{entityName}</Card.Title>
-          <Badge className="bloodtype-font" bg={getBloodTypeColor(bloodType)}>{bloodType}</Badge>
+          <Badge className="bloodtype-font" bg={getBloodTypeColor(bloodType)}>
+            {bloodType}
+          </Badge>
         </Card.Header>
         <Card.Subtitle className={`mb-4 text-${getStatusColor(status)}`}>
           {status}
@@ -79,4 +81,4 @@ const DonationCard = ({
   );
 };
 
-export default DonationCard;
+export default CampaignCard;
