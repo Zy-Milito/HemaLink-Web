@@ -3,7 +3,7 @@ import Sidebar from "./shared/sideBar/Sidebar";
 
 const Dashboard = () => {
   return (
-    <div class="app">
+    <div className="app">
       <section>
         <Sidebar />
       </section>

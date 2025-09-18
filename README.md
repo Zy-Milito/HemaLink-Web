@@ -1,12 +1,5 @@
-# React + Vite
+# HemaLink | Your blood. Their hope.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+HemaLink is a web and mobile app that makes it easy to find nearby blood donation campaigns and book extraction appointments fast. It's designed to help donors connect with clinics in just a few taps. This platform serves as the final project for our last semester.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Both the frontend and backend are being developed simultaneously, with the frontend built using React, Vite, and Bootstrap, and the backend powered by a scalable .NET API architecture made in C# to support dynamic campaign listings and role-based access.
