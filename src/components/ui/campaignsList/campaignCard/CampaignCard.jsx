@@ -44,7 +44,7 @@ const CampaignCard = ({
   return (
     <Card
       key={id}
-      style={{ width: "20vw", height: "28vh" }}
+      style={{ width: "20vw", height: "18vw" }}
       className="d-flex flex-column campaign-card"
     >
       <Card.Body className="d-flex flex-column flex-grow-1">
