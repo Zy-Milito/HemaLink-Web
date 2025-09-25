@@ -14,14 +14,12 @@ const CampaignCard = ({
 }) => {
   const getStatusColor = (status) => {
     switch (status) {
-      case "Active":
+      case "Open":
         return "success";
       case "Urgent":
         return "danger";
-      case "Scheduled":
-        return "info";
       case "Completed":
-        return "secondary";
+        return "info";
       default:
         return "secondary";
     }
@@ -44,7 +42,7 @@ const CampaignCard = ({
   return (
     <Card
       key={id}
-      style={{ width: "20vw", height: "18vw" }}
+      style={{ width: "18vw", height: "18vw" }}
       className="d-flex flex-column campaign-card"
     >
       <Card.Body className="d-flex flex-column flex-grow-1">

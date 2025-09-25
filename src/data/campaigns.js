@@ -1,11 +1,12 @@
-export const campaigns = [{
+export const campaigns = [
+  {
     id: 1,
     entityName: "City General Hospital",
     bloodType: "O+",
     date: "2024-01-15",
     location: "Downtown Medical Center",
     units: 25,
-    status: "Active"
+    status: "Open",
   },
   {
     id: 2,
@@ -14,7 +15,7 @@ export const campaigns = [{
     date: "2024-01-18",
     location: "Community Center Hall",
     units: 15,
-    status: "Scheduled"
+    status: "Completed",
   },
   {
     id: 3,
@@ -23,7 +24,7 @@ export const campaigns = [{
     date: "2024-01-20",
     location: "University Campus",
     units: 30,
-    status: "Active"
+    status: "Open",
   },
   {
     id: 4,
@@ -32,7 +33,7 @@ export const campaigns = [{
     date: "2024-01-22",
     location: "Blood Bank Center",
     units: 12,
-    status: "Urgent"
+    status: "Urgent",
   },
   {
     id: 5,
@@ -41,7 +42,7 @@ export const campaigns = [{
     date: "2024-01-25",
     location: "Mobile Unit - Downtown",
     units: 40,
-    status: "Urgent"
+    status: "Urgent",
   },
   {
     id: 6,
@@ -50,6 +51,87 @@ export const campaigns = [{
     date: "2024-01-28",
     location: "Medical District",
     units: 20,
-    status: "Scheduled"
-  }
+    status: "Open",
+  },
+  {
+    id: 7,
+    entityName: "St. Jude Outreach",
+    bloodType: "B-",
+    date: "2024-02-02",
+    location: "Riverside Clinic",
+    units: 18,
+    status: "Completed",
+  },
+  {
+    id: 8,
+    entityName: "Hopewell Medical",
+    bloodType: "AB-",
+    date: "2024-02-05",
+    location: "Eastside Pavilion",
+    units: 22,
+    status: "Open",
+  },
+  {
+    id: 9,
+    entityName: "Unity Health Network",
+    bloodType: "O+",
+    date: "2024-02-08",
+    location: "Northside Blood Center",
+    units: 35,
+    status: "Deleted",
+  },
+  {
+    id: 10,
+    entityName: "Global Aid Foundation",
+    bloodType: "A-",
+    date: "2024-02-10",
+    location: "Mobile Unit - West Park",
+    units: 28,
+    status: "Open",
+  },
+  {
+    id: 11,
+    entityName: "Lakeside Regional",
+    bloodType: "B+",
+    date: "2024-02-12",
+    location: "Lakeside Hospital",
+    units: 16,
+    status: "Completed",
+  },
+  {
+    id: 12,
+    entityName: "Wellness First Clinic",
+    bloodType: "O-",
+    date: "2024-02-14",
+    location: "Suburban Health Center",
+    units: 10,
+    status: "Open",
+  },
+  {
+    id: 13,
+    entityName: "Guardian Health",
+    bloodType: "A+",
+    date: "2024-02-16",
+    location: "Guardian Pavilion",
+    units: 24,
+    status: "Deleted",
+  },
+  {
+    id: 14,
+    entityName: "NovaCare Outreach",
+    bloodType: "AB+",
+    date: "2024-02-18",
+    location: "NovaCare Mobile Unit",
+    units: 19,
+    status: "Open",
+  },
+  {
+    id: 15,
+    entityName: "Central Blood Alliance",
+    bloodType: "B-",
+    date: "2024-02-20",
+    location: "Alliance HQ",
+    units: 27,
+    status: "Completed",
+  },
 ];
